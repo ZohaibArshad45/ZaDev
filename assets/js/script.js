@@ -59,12 +59,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio |  Zohaib Arshad";
+            $("#favicon").attr("href", "./assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "./assets/images/favhand.png");
         }
     });
 
@@ -225,19 +225,19 @@ srtop.reveal('.home .instagram', { interval: 600 });
 srtop.reveal('.home .dev', { interval: 600 });
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
+// srtop.reveal('.about .content h3', { delay: 200 });
+// srtop.reveal('.about .content .tag', { delay: 200 });
+// srtop.reveal('.about .content p', { delay: 200 });
+// srtop.reveal('.about .content .box-container', { delay: 200 });
+// srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
 /* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+// srtop.reveal('.skills .container', { interval: 200 });
+// srtop.reveal('.skills .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+// srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
