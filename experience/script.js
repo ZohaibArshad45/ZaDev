@@ -20,14 +20,14 @@ $(document).ready(function(){
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
     origin: 'top',
-    distance: '20px',
-    duration: 500,
+    distance: '80px',
+    duration: 300,
     reset: true
 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
+srtop.reveal('.experience .timeline',{delay: 200});
+srtop.reveal('.experience .timeline .container',{interval: 200}); 
 
 
 // Start of Tawk.to Live Chat
